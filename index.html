@@ -2,102 +2,598 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rahul Kumar | My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rahul Kumar - Entrepreneur, Electronics, Technology and Education">
+  <meta name="theme-color" content="#07111f">
+
+  <title>Rahul Kumar | Entrepreneur</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
 </head>
+
 <body>
 
-    <header>
-        <nav class="navbar">
-            <a href="#" class="logo">Rahul Kumar</a>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="nav-container">
 
-    <section id="home" class="hero">
+      <a href="#home" class="logo">Rahul Kumar <span>.</span></a>
 
-<img src="./Images/rahul.jpeg.jpeg" alt="Rahul Kumar" class="profile-photo">
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#personal">Personal</a>
+        <a href="#education">Education</a>
+        <a href="#business">Business</a>
+        <a href="#family">Family</a>
+        <a href="#lifestyle">Lifestyle</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-        <div class="hero-content">
-            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
-            <h1>Hi, I'm <span>Rahul Kumar</span></h1>
-            <h2>Entrepreneur | Technology Enthusiast</h2>
-            <p>
-                I love technology, electronics, robotics and innovation.
-                I am working to make technology education accessible to everyone.
-            </p>
-            <a href="#projects" class="btn">Explore My Work</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">ENTREPRENEUR • TECHNOLOGY • EDUCATION</p>
+
+        <h1>Hello, I'm <span>Rahul Kumar</span></h1>
+
+        <h2>Entrepreneur &amp; Technology Enthusiast</h2>
+
+        <p>
+          My journey started in a small village, studying in a government
+          school. Today, I am building businesses in electronics, technology
+          and education with a vision to create opportunities through innovation.
+        </p>
+
+        <div class="hero-buttons">
+        <a href="#business" class="btn">Explore My Businesses</a>
+<a href="#contact" class="btn btn-outline">Contact Me</a>
         </div>
-    </section>
+      </div>
 
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <p>
-                I am Rahul Kumar, an entrepreneur with an interest in
-                electronics, robotics, IoT and technology education.
-                My journey began in a small village, where I studied
-                in a government school.
-            </p>
-            <p>
-                I am the founder of The Dr Industries and DRC Edutech
-                Pvt Ltd. My goal is to help students learn technology
-                through practical projects and hands-on training.
-            </p>
+      <div class="hero-visual reveal">
+        <div class="profile-card">
+
+          <p class="eyebrow">INTRODUCING</p>
+
+          <img
+            src="./Images/rahul.jpeg"
+            alt="Rahul Kumar"
+            class="profile-photo"
+          >
+
+          <h3>Rahul Kumar</h3>
+          <p>Entrepreneur &amp; Founder</p>
+
+          <div class="tech-tags">
+            <span>Electronics</span>
+            <span>Robotics</span>
+            <span>IoT</span>
+            <span>Education</span>
+          </div>
+
         </div>
+      </div>
+
     </section>
 
-    <section id="skills" class="section alternate">
-        <h2>My Skills</h2>
-        <div class="cards">
-            <div class="card">Arduino & Electronics</div>
-            <div class="card">Robotics</div>
-            <div class="card">Internet of Things (IoT)</div>
-            <div class="card">Circuit Design</div>
-            <div class="card">3D Printing</div>
-            <div class="card">Technology Education</div>
-        </div>
+
+    <!-- PERSONAL DETAILS -->
+    <section class="section" id="personal">
+
+      <div class="section-heading reveal">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Personal <span>Details</span></h2>
+      </div>
+
+      <div class="details-grid">
+
+        <article class="info-card reveal">
+          <h3>Full Name</h3>
+          <p>Rahul Kumar</p>
+        </article>
+
+        <article class="info-card reveal">
+          <h3>Date of Birth</h3>
+          <p>1 March 1999</p>
+        </article>
+
+        <article class="info-card reveal">
+          <h3>Height</h3>
+          <p>5 Feet 7 Inch</p>
+        </article>
+
+        <article class="info-card reveal">
+          <h3>Religion</h3>
+          <p>Hindu</p>
+        </article>
+
+        <article class="info-card reveal">
+          <h3>Language</h3>
+          <p>Hindi</p>
+        </article>
+
+        <article class="info-card reveal">
+          <h3>Marital Status</h3>
+          <p>Never Married</p>
+        </article>
+
+        <article class="info-card reveal full-card">
+          <h3>Address</h3>
+          <p>
+            Village Maragpura, Post Rendhar, District Jalaun, Uttar Pradesh
+          </p>
+        </article>
+
+      </div>
     </section>
 
-    <section id="projects" class="section">
-        <h2>My Projects</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>Wi-Fi Robot Car</h3>
-                <p>A robot car controlled using a mobile phone and ESP8266.</p>
-            </div>
-            <div class="card">
-                <h3>Smart Electronics</h3>
-                <p>Practical electronic circuits using sensors and controllers.</p>
-            </div>
-            <div class="card">
-                <h3>Technology Education</h3>
-                <p>Hands-on technology learning for school students.</p>
-            </div>
-        </div>
+
+    <!-- EDUCATION AND CAREER -->
+    <section class="section" id="education">
+
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY JOURNEY</p>
+        <h2>Education &amp; <span>Career</span></h2>
+      </div>
+
+      <div class="details-grid">
+
+        <article class="info-card reveal">
+          <h3>Diploma</h3>
+          <p>Electrical Engineering</p>
+        </article>
+
+        <article class="info-card reveal">
+          <h3>Graduation</h3>
+          <p>B.Sc. — In Progress</p>
+        </article>
+
+        <article class="info-card reveal">
+          <h3>Computer Course</h3>
+          <p>CCC</p>
+        </article>
+
+        <article class="info-card reveal full-card">
+          <h3>Profession</h3>
+          <p>Business &amp; Entrepreneurship</p>
+        </article>
+
+      </div>
     </section>
 
-    <section id="contact" class="section alternate">
-        <h2>Contact Me</h2>
-        <p>Interested in technology, training or collaboration?</p>
-        <p>Email: thedrindustriesofficial@gmail.com</p>
-        <a class="btn" href="mailto:thedrindustriesofficial@gmail.com">
-            Send Me an Email
-        </a>
+
+    <!-- BUSINESS -->
+    <section class="section" id="business">
+
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY VENTURES</p>
+        <h2>My <span>Businesses</span></h2>
+        <p>Currenty im owner of 2 companies </p>
+      </div>
+
+      <div class="business-grid">
+
+        <article class="business-card featured reveal">
+
+          <div class="business-symbol">DR</div>
+          <p class="card-number">01 / Working for ELECTRONICS</p>
+
+          <h3>THE DR INDUSTRIES ORAI</h3>
+
+          <p>
+            Electronics components and raw materials supply for electronic
+            projects, laboratories and Navodaya vidhyalaya, .
+          </p>
+
+          <div class="business-tags">
+            <span>Electronics</span>
+            <span>Components</span>
+            <span>Raw Materials</span>
+          </div>
+
+          <a
+            class="primary-btn"
+            href="https://www.google.com/search?q=The+Dr+Industries+Orai"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Know More</a>
+
+        </article>
+
+        <article class="business-card reveal">
+
+          <div class="business-symbol">DRC</div>
+          <p class="card-number">02 / TECHNOLOGY &amp; EDUCATION</p>
+
+          <h3>DRC EDUTECH PVT LTD</h3>
+
+          <p>
+            A technology and education-based company focused on practical
+            learning, technical training, electronics and emerging technologies.
+          </p>
+
+          <div class="business-tags">
+            <span>Technology</span>
+            <span>Training</span>
+            <span>Education</span>
+          </div>
+
+<a
+  href="https://drcedutech.in/"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="visit-website"
+>
+  ↗ Visit Website
+</a>
+
+
+        </article>
+
+      </div>
+
+
+      <!-- AREAS OF WORK -->
+      <div class="section-heading sub-heading reveal">
+        <p class="eyebrow">WHAT I DO</p>
+        <h2>My <span>Areas of Work</span></h2>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card reveal">
+          <span>01</span>
+          <h3>Electronics</h3>
+          <p>Electronic components, circuits and practical projects.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <span>02</span>
+          <h3>Robotics &amp; IoT</h3>
+          <p>Robotics, sensors, microcontrollers and smart systems.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <span>03</span>
+          <h3>Technical Training</h3>
+          <p>Hands-on learning and technology-based educational activities.</p>
+        </article>
+
+      </div>
+
     </section>
 
-    <footer>
-        <p>© <span id="year"></span> Rahul Kumar. All rights reserved.</p>
-    </footer>
 
-    <script src="script.js"></script>
+    <!-- FAMILY SECTION -->
+    <section class="section" id="family">
+
+      <!-- FAMILY HEADING -->
+      <div class="family-main-heading reveal">
+        <p class="eyebrow">MY FAMILY</p>
+        <h2>Family <span>Details</span></h2>
+      </div>
+
+
+      <!-- PARENTS -->
+      <div class="family-parents">
+
+        <article class="info-card reveal family-person-card">
+
+          <h3>Father's Name</h3>
+          <p>Ramesh Chandra</p>
+
+          <div class="family-photo-box has-photo">
+            <img
+              src="./Images/father.jpeg"
+              class="family-photo"
+              alt="Ramesh Chandra"
+              loading="lazy"
+            >
+          </div>
+
+          <p class="family-occupation">
+            <strong>Occupation:</strong> Farmer
+          </p>
+
+        </article>
+
+        <article class="info-card reveal family-person-card">
+
+          <h3>Mother's Name</h3>
+          <p>Janki Devi</p>
+
+          <div class="family-photo-box has-photo">
+            <img
+              src="./Images/mother.jpeg"
+              class="family-photo"
+              alt="Janki Devi"
+              loading="lazy"
+            >
+          </div>
+
+          <p class="family-occupation">
+            <strong>Occupation:</strong> Housewife
+          </p>
+
+        </article>
+
+      </div>
+
+
+      <!-- BROTHERS HEADING -->
+      <div class="family-subheading reveal">
+        <h3>Brothers</h3>
+        <p>4 Brothers</p>
+      </div>
+
+
+      <!-- BROTHERS PHOTOS -->
+      <div class="family-members-grid brothers-grid">
+
+        <article class="info-card reveal family-person-card">
+          <h3>Hariom Singh</h3>
+
+          <div class="family-photo-box has-photo">
+            <img
+              src="./Images/hariom.jpeg"
+              class="family-photo"
+              alt="Hariom Singh"
+              loading="lazy"
+            >
+          </div>
+        </article>
+
+        <article class="info-card reveal family-person-card">
+          <h3>Pratap Singh</h3>
+
+          <div class="family-photo-box has-photo">
+            <img
+              src="./Images/pratap.jpeg"
+              class="family-photo"
+              alt="Pratap Singh"
+              loading="lazy"
+            >
+          </div>
+        </article>
+
+        <article class="info-card reveal family-person-card">
+          <h3>Narendra Kumar</h3>
+
+          <div class="family-photo-box has-photo">
+            <img
+              src="./Images/narendra.jpeg"
+              class="family-photo"
+              alt="Narendra Kumar"
+              loading="lazy"
+            >
+          </div>
+        </article>
+
+        <article class="info-card reveal family-person-card">
+          <h3>Rahul Kumar</h3>
+
+          <div class="family-photo-box has-photo">
+            <img
+              src="./Images/rahul.jpeg.jpeg"
+              class="family-photo"
+              alt="Rahul Kumar"
+              loading="lazy"
+            >
+          </div>
+        </article>
+
+      </div>
+
+
+      <!-- BROTHER OCCUPATION -->
+      <div class="details-grid family-extra-details">
+
+        <article class="info-card reveal full-card">
+          <h3>Brother's Occupation</h3>
+          <p>Clothing Factory</p>
+        </article>
+
+      </div>
+
+
+      <!-- SISTERS HEADING -->
+      <div class="family-subheading reveal">
+        <h3>Sisters</h3>
+        <p>2 Sisters</p>
+      </div>
+
+
+      <!-- SISTERS PHOTOS -->
+      <div class="family-members-grid sisters-grid">
+
+        <article class="info-card reveal family-person-card">
+          <h3>Saroj</h3>
+
+          <div class="family-photo-box has-photo">
+            <img
+              src="./Images/saroj.png"
+              class="family-photo"
+              alt="Saroj"
+              loading="lazy"
+            >
+          </div>
+        </article>
+
+        <article class="info-card reveal family-person-card">
+          <h3>Manju</h3>
+
+          <div class="family-photo-box has-photo">
+            <img
+              src="./Images/manju.jpeg"
+              class="family-photo"
+              alt="Manju"
+              loading="lazy"
+            >
+          </div>
+        </article>
+
+      </div>
+
+
+      <!-- FAMILY TYPE -->
+      <div class="details-grid family-extra-details">
+
+        <article class="info-card reveal">
+          <h3>Family Type</h3>
+          <p>Joint Family</p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- LIFESTYLE -->
+    <section class="section" id="lifestyle">
+
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY INTERESTS</p>
+        <h2>Lifestyle &amp; <span>Interests</span></h2>
+      </div>
+
+      <div class="details-grid">
+
+        <article class="info-card reveal">
+          <h3>Hobbies</h3>
+          <p>Robot Manufacturing and Electronics Projects</p>
+        </article>
+
+        <article class="info-card reveal">
+          <h3>Food Preference</h3>
+          <p>Vegetarian</p>
+        </article>
+
+        <article class="info-card reveal">
+          <h3>Interests</h3>
+          <p>Technology, Innovation and Education</p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- PARTNER PREFERENCES -->
+    <section class="section" id="partner">
+
+      <div class="section-heading reveal">
+        <p class="eyebrow">FUTURE PARTNER</p>
+        <h2>Partner <span>Preferences</span></h2>
+      </div>
+
+      <div class="details-grid">
+
+        <article class="info-card reveal full-card">
+          <h3>Partner Preference</h3>
+
+          <p>
+            Looking for a compatible life partner who values family,
+            mutual respect, understanding and shared growth.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    
+<!-- CONTACT SECTION -->
+<section class="contact-section reveal" id="contact">
+
+  <div class="contact-content">
+
+    <p class="eyebrow">LET'S CONNECT</p>
+    <h2>Contact <span>Me</span></h2>
+
+    <p class="contact-description">
+      For business, technology, education and other enquiries,
+      feel free to get in touch.
+    </p>
+
+    <div class="contact-details">
+
+      <div class="contact-info-box">
+        <span class="contact-label">Name</span>
+        <p>Rahul Kumar</p>
+      </div>
+
+      <div class="contact-info-box">
+        <span class="contact-label">Phone</span>
+        <p>
+          <a href="tel:8471026098">8471026098</a>
+        </p>
+      </div>
+
+      <div class="contact-info-box">
+        <span class="contact-label">Email Address</span>
+        <p>
+          <a href="mailto:thedrindustriesofficial@gmail.com">
+            thedrindustriesofficial@gmail.com
+          </a>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="contact-action-grid">
+
+      <a
+        class="contact-action-box whatsapp-box"
+        href="https://wa.me/918471026098"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="contact-action-icon">✆</span>
+        <span class="contact-action-title">WhatsApp</span>
+        <span class="contact-action-text">Message me directly</span>
+        <span class="contact-action-link">Chat on WhatsApp →</span>
+      </a>
+
+      <a
+        class="contact-action-box email-box"
+        href="mailto:thedrindustriesofficial@gmail.com"
+      >
+        <span class="contact-action-icon">✉</span>
+        <span class="contact-action-title">Email Me</span>
+        <span class="contact-action-text">Send your enquiry</span>
+        <span class="contact-action-link">Send an Email →</span>
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© <span id="year"></span> Rahul Kumar. All rights reserved.</p>
+    <a href="#home">Back to Top ↑</a>
+  </footer>
+
 </body>
 </html>
