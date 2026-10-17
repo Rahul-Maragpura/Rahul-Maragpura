@@ -300,7 +300,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 
-  /* ---------- 14. SUPPORT IMAGES ADDED LATER ---------- */
+  /* ---------- 14. SUPPORT IMAGES ADDED LATER.  ---------- */
 
   const imageObserver = new MutationObserver(() => {
     enablePhotoZoom();
